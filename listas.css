@@ -1,0 +1,40 @@
+ul, ol{
+    list-style: none;
+    padding:0;
+}
+
+ul {
+
+    list-style: circle;
+    /* para imagenes */
+    /* list-style-image: url('nombre url'); */
+}
+
+ol {
+    list-style: lower-roman;
+}
+
+/* Menu */
+
+.menu {
+    background: #4357ef;
+    list-style:none;
+    width: 200px;
+    text-align: center;
+}
+
+.menu li {
+    border-bottom: 1px solid rgba(255,255,255, .3);
+
+}
+
+.menu li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu li a:hover{
+    background: #4888d6;
+}
